@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/CreateEmp - parameterized - Iteration 1","testCaseId":"Test Cases/CreateEmp - parameterized","bindedValues":{"salary":"\u002750000\u0027","age":"\u002725\u0027"}}
+{"testCaseName":"Test Cases/CreateEmp - parameterized - Iteration 2","testCaseId":"Test Cases/CreateEmp - parameterized","bindedValues":{"salary":"\u002755000\u0027","age":"\u002745\u0027"}}
+{"testCaseName":"Test Cases/CreateEmp - parameterized - Iteration 3","testCaseId":"Test Cases/CreateEmp - parameterized","bindedValues":{"salary":"\u002760000\u0027","age":"\u002726\u0027"}}
+{"testCaseName":"Test Cases/CreateEmp - parameterized - Iteration 4","testCaseId":"Test Cases/CreateEmp - parameterized","bindedValues":{"salary":"\u002770000\u0027","age":"\u002736\u0027"}}

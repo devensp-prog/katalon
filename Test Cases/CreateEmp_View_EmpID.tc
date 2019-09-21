@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateEmp_View_EmpID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cd7a72b7-acd3-48e0-aa79-0535a01f4191</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>caaf980f-930e-4e98-890f-198e418b45bf</id>
+      <masked>false</masked>
+      <name>EmpName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>54aeed6a-4fc3-4469-b681-d50c42bb1ba9</id>
+      <masked>false</masked>
+      <name>Salary</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1ab6bfdf-57b8-4ca9-b8f6-a7120a973b0e</id>
+      <masked>false</masked>
+      <name>age</name>
+   </variable>
+</TestCaseEntity>

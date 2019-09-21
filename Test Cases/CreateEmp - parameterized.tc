@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateEmp - parameterized</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>da513ff2-9989-485c-bc9b-51e737acd480</testCaseGuid>
+   <variable>
+      <defaultValue>'1000'</defaultValue>
+      <description></description>
+      <id>20633f38-5caa-49ca-b2e9-3aaf37aa21dd</id>
+      <masked>false</masked>
+      <name>salary</name>
+   </variable>
+   <variable>
+      <defaultValue>'30'</defaultValue>
+      <description></description>
+      <id>de9a446d-fa08-4412-9e00-8b6134746665</id>
+      <masked>false</masked>
+      <name>age</name>
+   </variable>
+</TestCaseEntity>

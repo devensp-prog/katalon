@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Create Emp_Excel" time="6" tests="4" failures="0" errors="0">
+    <testsuite name="Create Emp_Excel" tests="4" failures="0" errors="0" time="6" timestamp="2019-09-20 15:49:51" hostname="dpotey - XIPL9344.xpanxion.co.in" id="Test Suites/Create Emp_Excel">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\dpotey\\Katalon Studio\\APITest\\Reports\\20190920_154949\\Create Emp_Excel\\20190920_154949"/>
+            <property name="logFiles" value="C:\\Users\\dpotey\\Katalon Studio\\APITest\\Reports\\20190920_154949\\Create Emp_Excel\\20190920_154949\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="dpotey - XIPL9344.xpanxion.co.in"/>
+            <property name="hostAddress" value="172.30.33.18"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+        </properties>
+        <testcase name="Test Cases/CreateEmp - parameterized" classname="Test Cases/CreateEmp - parameterized" status="PASSED">
+            <system-out>2019-09-20 15:49:51 - [TEST_CASE][PASSED] - Test Cases/CreateEmp - parameterized: Test Cases/CreateEmp - parameterized&#xD;
+&#xD;
+2019-09-20 15:49:51 - [TEST_STEP][PASSED] - date = new java.util.Date(): null&#xD;
+&#xD;
+2019-09-20 15:49:51 - [TEST_STEP][PASSED] - datevalue = date.toString(): null&#xD;
+&#xD;
+2019-09-20 15:49:52 - [TEST_STEP][PASSED] - datevalue = datevalue.replace(" ", ""): null&#xD;
+&#xD;
+2019-09-20 15:49:52 - [TEST_STEP][PASSED] - datevalue = datevalue.replace(":", ""): null&#xD;
+&#xD;
+2019-09-20 15:49:52 - [TEST_STEP][PASSED] - println(datevalue): null&#xD;
+&#xD;
+2019-09-20 15:49:52 - [TEST_STEP][PASSED] - EmpName = datevalue: null&#xD;
+&#xD;
+2019-09-20 15:49:52 - [TEST_STEP][PASSED] - println(EmpName): null&#xD;
+&#xD;
+2019-09-20 15:49:52 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("DummyEmp/CreateEmp", ["EmpName":datevalue, "salary":salary, "age":age])): Send request and verify the response successfully&#xD;
+&#xD;
+2019-09-20 15:49:54 - [MESSAGE][INFO] - HAR: C:\Users\dpotey\Katalon Studio\APITest\Reports\20190920_154949\Create Emp_Excel\20190920_154949\requests\main\0.har&#xD;
+&#xD;
+2019-09-20 15:49:54 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully&#xD;
+&#xD;
+2019-09-20 15:49:54 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null&#xD;
+&#xD;
+2019-09-20 15:49:54 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null&#xD;
+&#xD;
+2019-09-20 15:49:54 - [TEST_STEP][PASSED] - Assertions.assertThat(responseBodyContent.contains(EmpName)): null&#xD;
+&#xD;
+2019-09-20 15:49:54 - [MESSAGE][PASSED] - Verify response successfully&#xD;
+&#xD;
+2019-09-20 15:49:54 - [MESSAGE][PASSED] - Send request and verify the response successfully&#xD;
+&#xD;
+2019-09-20 15:49:54 - [TEST_STEP][PASSED] - println(response.getResponseBodyContent()): null&#xD;
+&#xD;
+2019-09-20 15:49:54 - [TEST_STEP][PASSED] - assert containsString(response, datevalue, false): Check contain string successfully&#xD;
+&#xD;
+2019-09-20 15:49:54 - [MESSAGE][PASSED] - Check contain string successfully&#xD;
+&#xD;
+2019-09-20 15:49:54 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "name", EmpName): Verify element property value successfully&#xD;
+&#xD;
+2019-09-20 15:49:54 - [MESSAGE][PASSED] - Verify element property value successfully&#xD;
+&#xD;
+2019-09-20 15:49:54 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-09-20 15:49:54 - [MESSAGE][PASSED] - Verify response status code successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/CreateEmp - parameterized" classname="Test Cases/CreateEmp - parameterized" status="PASSED">
+            <system-out>2019-09-20 15:49:54 - [TEST_CASE][PASSED] - Test Cases/CreateEmp - parameterized: Test Cases/CreateEmp - parameterized&#xD;
+&#xD;
+2019-09-20 15:49:54 - [TEST_STEP][PASSED] - date = new java.util.Date(): null&#xD;
+&#xD;
+2019-09-20 15:49:54 - [TEST_STEP][PASSED] - datevalue = date.toString(): null&#xD;
+&#xD;
+2019-09-20 15:49:54 - [TEST_STEP][PASSED] - datevalue = datevalue.replace(" ", ""): null&#xD;
+&#xD;
+2019-09-20 15:49:54 - [TEST_STEP][PASSED] - datevalue = datevalue.replace(":", ""): null&#xD;
+&#xD;
+2019-09-20 15:49:54 - [TEST_STEP][PASSED] - println(datevalue): null&#xD;
+&#xD;
+2019-09-20 15:49:54 - [TEST_STEP][PASSED] - EmpName = datevalue: null&#xD;
+&#xD;
+2019-09-20 15:49:54 - [TEST_STEP][PASSED] - println(EmpName): null&#xD;
+&#xD;
+2019-09-20 15:49:54 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("DummyEmp/CreateEmp", ["EmpName":datevalue, "salary":salary, "age":age])): Send request and verify the response successfully&#xD;
+&#xD;
+2019-09-20 15:49:55 - [MESSAGE][INFO] - HAR: C:\Users\dpotey\Katalon Studio\APITest\Reports\20190920_154949\Create Emp_Excel\20190920_154949\requests\main\1.har&#xD;
+&#xD;
+2019-09-20 15:49:55 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully&#xD;
+&#xD;
+2019-09-20 15:49:55 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null&#xD;
+&#xD;
+2019-09-20 15:49:55 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null&#xD;
+&#xD;
+2019-09-20 15:49:55 - [TEST_STEP][PASSED] - Assertions.assertThat(responseBodyContent.contains(EmpName)): null&#xD;
+&#xD;
+2019-09-20 15:49:55 - [MESSAGE][PASSED] - Verify response successfully&#xD;
+&#xD;
+2019-09-20 15:49:55 - [MESSAGE][PASSED] - Send request and verify the response successfully&#xD;
+&#xD;
+2019-09-20 15:49:55 - [TEST_STEP][PASSED] - println(response.getResponseBodyContent()): null&#xD;
+&#xD;
+2019-09-20 15:49:55 - [TEST_STEP][PASSED] - assert containsString(response, datevalue, false): Check contain string successfully&#xD;
+&#xD;
+2019-09-20 15:49:55 - [MESSAGE][PASSED] - Check contain string successfully&#xD;
+&#xD;
+2019-09-20 15:49:55 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "name", EmpName): Verify element property value successfully&#xD;
+&#xD;
+2019-09-20 15:49:55 - [MESSAGE][PASSED] - Verify element property value successfully&#xD;
+&#xD;
+2019-09-20 15:49:55 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-09-20 15:49:55 - [MESSAGE][PASSED] - Verify response status code successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/CreateEmp - parameterized" classname="Test Cases/CreateEmp - parameterized" status="PASSED">
+            <system-out>2019-09-20 15:49:55 - [TEST_CASE][PASSED] - Test Cases/CreateEmp - parameterized: Test Cases/CreateEmp - parameterized&#xD;
+&#xD;
+2019-09-20 15:49:55 - [TEST_STEP][PASSED] - date = new java.util.Date(): null&#xD;
+&#xD;
+2019-09-20 15:49:55 - [TEST_STEP][PASSED] - datevalue = date.toString(): null&#xD;
+&#xD;
+2019-09-20 15:49:55 - [TEST_STEP][PASSED] - datevalue = datevalue.replace(" ", ""): null&#xD;
+&#xD;
+2019-09-20 15:49:55 - [TEST_STEP][PASSED] - datevalue = datevalue.replace(":", ""): null&#xD;
+&#xD;
+2019-09-20 15:49:55 - [TEST_STEP][PASSED] - println(datevalue): null&#xD;
+&#xD;
+2019-09-20 15:49:55 - [TEST_STEP][PASSED] - EmpName = datevalue: null&#xD;
+&#xD;
+2019-09-20 15:49:55 - [TEST_STEP][PASSED] - println(EmpName): null&#xD;
+&#xD;
+2019-09-20 15:49:55 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("DummyEmp/CreateEmp", ["EmpName":datevalue, "salary":salary, "age":age])): Send request and verify the response successfully&#xD;
+&#xD;
+2019-09-20 15:49:56 - [MESSAGE][INFO] - HAR: C:\Users\dpotey\Katalon Studio\APITest\Reports\20190920_154949\Create Emp_Excel\20190920_154949\requests\main\2.har&#xD;
+&#xD;
+2019-09-20 15:49:56 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully&#xD;
+&#xD;
+2019-09-20 15:49:56 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null&#xD;
+&#xD;
+2019-09-20 15:49:56 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null&#xD;
+&#xD;
+2019-09-20 15:49:56 - [TEST_STEP][PASSED] - Assertions.assertThat(responseBodyContent.contains(EmpName)): null&#xD;
+&#xD;
+2019-09-20 15:49:56 - [MESSAGE][PASSED] - Verify response successfully&#xD;
+&#xD;
+2019-09-20 15:49:56 - [MESSAGE][PASSED] - Send request and verify the response successfully&#xD;
+&#xD;
+2019-09-20 15:49:56 - [TEST_STEP][PASSED] - println(response.getResponseBodyContent()): null&#xD;
+&#xD;
+2019-09-20 15:49:56 - [TEST_STEP][PASSED] - assert containsString(response, datevalue, false): Check contain string successfully&#xD;
+&#xD;
+2019-09-20 15:49:56 - [MESSAGE][PASSED] - Check contain string successfully&#xD;
+&#xD;
+2019-09-20 15:49:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "name", EmpName): Verify element property value successfully&#xD;
+&#xD;
+2019-09-20 15:49:56 - [MESSAGE][PASSED] - Verify element property value successfully&#xD;
+&#xD;
+2019-09-20 15:49:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-09-20 15:49:56 - [MESSAGE][PASSED] - Verify response status code successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/CreateEmp - parameterized" classname="Test Cases/CreateEmp - parameterized" status="PASSED">
+            <system-out>2019-09-20 15:49:56 - [TEST_CASE][PASSED] - Test Cases/CreateEmp - parameterized: Test Cases/CreateEmp - parameterized&#xD;
+&#xD;
+2019-09-20 15:49:56 - [TEST_STEP][PASSED] - date = new java.util.Date(): null&#xD;
+&#xD;
+2019-09-20 15:49:56 - [TEST_STEP][PASSED] - datevalue = date.toString(): null&#xD;
+&#xD;
+2019-09-20 15:49:56 - [TEST_STEP][PASSED] - datevalue = datevalue.replace(" ", ""): null&#xD;
+&#xD;
+2019-09-20 15:49:56 - [TEST_STEP][PASSED] - datevalue = datevalue.replace(":", ""): null&#xD;
+&#xD;
+2019-09-20 15:49:56 - [TEST_STEP][PASSED] - println(datevalue): null&#xD;
+&#xD;
+2019-09-20 15:49:56 - [TEST_STEP][PASSED] - EmpName = datevalue: null&#xD;
+&#xD;
+2019-09-20 15:49:56 - [TEST_STEP][PASSED] - println(EmpName): null&#xD;
+&#xD;
+2019-09-20 15:49:56 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("DummyEmp/CreateEmp", ["EmpName":datevalue, "salary":salary, "age":age])): Send request and verify the response successfully&#xD;
+&#xD;
+2019-09-20 15:49:57 - [MESSAGE][INFO] - HAR: C:\Users\dpotey\Katalon Studio\APITest\Reports\20190920_154949\Create Emp_Excel\20190920_154949\requests\main\3.har&#xD;
+&#xD;
+2019-09-20 15:49:57 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully&#xD;
+&#xD;
+2019-09-20 15:49:57 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null&#xD;
+&#xD;
+2019-09-20 15:49:57 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null&#xD;
+&#xD;
+2019-09-20 15:49:57 - [TEST_STEP][PASSED] - Assertions.assertThat(responseBodyContent.contains(EmpName)): null&#xD;
+&#xD;
+2019-09-20 15:49:57 - [MESSAGE][PASSED] - Verify response successfully&#xD;
+&#xD;
+2019-09-20 15:49:57 - [MESSAGE][PASSED] - Send request and verify the response successfully&#xD;
+&#xD;
+2019-09-20 15:49:57 - [TEST_STEP][PASSED] - println(response.getResponseBodyContent()): null&#xD;
+&#xD;
+2019-09-20 15:49:57 - [TEST_STEP][PASSED] - assert containsString(response, datevalue, false): Check contain string successfully&#xD;
+&#xD;
+2019-09-20 15:49:57 - [MESSAGE][PASSED] - Check contain string successfully&#xD;
+&#xD;
+2019-09-20 15:49:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "name", EmpName): Verify element property value successfully&#xD;
+&#xD;
+2019-09-20 15:49:57 - [MESSAGE][PASSED] - Verify element property value successfully&#xD;
+&#xD;
+2019-09-20 15:49:57 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-09-20 15:49:57 - [MESSAGE][PASSED] - Verify response status code successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-09-20 15:49:51 - [TEST_SUITE][INCOMPLETE] - Create Emp_Excel: null</system-out>
+        <system-err>2019-09-20 15:49:51 - [TEST_SUITE][INCOMPLETE] - Create Emp_Excel: null</system-err>
+    </testsuite>
+</testsuites>
